@@ -7,7 +7,7 @@
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2024a+-orange?style=flat-square&logo=mathworks&logoColor=white)](https://www.mathworks.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Dataset](https://img.shields.io/badge/Dataset-NBU_Pansharpening-purple?style=flat-square)](https://doi.org/10.1109/MGRS.2020.3008355)
-[![Related](https://img.shields.io/badge/Related-MVG--SDI_(Spectral)-red?style=flat-square)](https://github.com/bishromer/MVG-SDI)
+
 
 <br/>
 
@@ -241,9 +241,9 @@ MVG-Spa is tested against four simulated spatial degradations on the QB dataset.
 
 ## ⚠️ Limitations
 
-- **Spatial only** — does not measure spectral fidelity. Pair with [MVG-SDI](https://github.com/bishromer/MVG-SDI) for complete assessment.
+- **Spatial only** — does not measure spectral fidelity. 
 - Higher computational cost than simpler NR metrics due to Log-Gabor filterbank and LBP extraction (persistent filterbank caching mitigates repeated calls).
-- Validated on IK, WV-2, and QB sensors; additional sensors (WV-3/4) covered in the companion spectral repo.
+
 
 ---
 
@@ -269,7 +269,7 @@ Fusion implementations from the [PanCollection](https://github.com/liangjiandeng
 }
 ```
 
-If you also use the spectral index, please cite [MVG-SDI](https://github.com/bishromer/MVG-SDI):
+If you also use the spectral index, please cite [MVG-SDI](https://github.com/bishr-omer/mvg-spectral-distortion-index):
 
 ```bibtex
 @article{adam2026mvgsdi,
