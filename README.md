@@ -209,19 +209,6 @@ Download: [NBU official GitHub](https://github.com/xingxingmeng/NBU-Dataset)
 
 ---
 
-## 🧪 Degradation Robustness
-
-MVG-Spa is tested against four simulated spatial degradations on the QB dataset. A robust metric must rank severities **monotonically** (score increases as distortion worsens).
-
-| Degradation | Simulation | QNRs | FQNRs | RQNRs | MQNRs | **Ours** |
-|---|---|:---:|:---:|:---:|:---:|:---:|
-| **Blur** | Gaussian σ = 0.5→1.5 | ❌ | ⚠️ | ✅ | ⚠️ | ✅ |
-| **Blocking** | Block size 1→3 px | ❌ | ⚠️ | ✅ | ⚠️ | ✅ |
-| **Misregistration** | Shift 1→3 px | ⚠️ | ❌ | ✅ | ➖ | ✅ |
-| **Ghosting** | α = 1.0→3.0 | ⚠️ | ❌ | ✅ | ⚠️ | ✅ |
-
-✅ Monotonic · ⚠️ Partially monotonic · ❌ Fails · ➖ Flat/insensitive
-
 ### QB / GS Method — Detailed
 
 | Condition | Param | QNRs | FQNRs | RQNRs | MQNRs | **Ours** |
