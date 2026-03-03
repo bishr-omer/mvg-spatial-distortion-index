@@ -45,7 +45,6 @@ Together they form **MVG-QNR** — a holistic NR quality framework that avoids t
 - [Quick Start](#-quick-start)
 - [Dataset](#-dataset)
 - [Results](#-results)
-- [Degradation Robustness](#-degradation-robustness)
 - [Citation](#-citation)
 
 ---
