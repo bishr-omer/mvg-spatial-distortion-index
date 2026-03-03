@@ -31,7 +31,7 @@ This repo is **Part 2** of a two-part framework for complete, decoupled pansharp
 
 | Repo | Distortion Type | Reference | Features |
 |---|---|---|---|
-| [**MVG-SDI**][(https://github.com/bishr-omer/mvg-spectral-distortion-index) | Spectral (colour shifts, radiometric errors) | MS image | FDD (Benford) + Color Moments · 21D |
+| [MVG-SDI](https://github.com/bishr-omer/mvg-spectral-distortion-index) | Spectral (colour shifts, radiometric errors) | MS image | FDD (Benford) + Color Moments · 21D |
 | **MVG-Spa** *(this repo)* | Spatial (blur, blocking, ghosting, misregistration) | PAN image | Log-Gabor + LBP + Edge + Stats · 48D |
 
 Together they form **MVG-QNR** — a holistic NR quality framework that avoids the spectral–spatial coupling that plagues QNR and its variants.
